@@ -1,0 +1,120 @@
+*{
+   margin: 0 auto;
+   padding: 0;
+   font-style: normal;
+}
+body{
+	position: relative;
+	max-width: 640px;
+	min-width: 320px;
+}
+.con{
+	margin-bottom: 50px;;
+	width: 100%;
+	display: table;
+	background-color: rgba(226,125,5,0.1);
+}
+.img2{
+	position: absolute;
+    right: 0;
+    top: 35px;
+}
+.img3{
+	width: 100%;
+}
+.main{
+  width: 100%;
+  display: table;
+  border-bottom:1px solid #eee;
+  background-color: white;
+}
+.main3{
+	width: 100%;
+	height:57px;
+	border-bottom:2px solid rgb(79,201,84);
+    background-color: white;
+    margin-top: 20px;
+}
+.main3 img{
+	float: left;
+}
+.main3 a{
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	height: 57px;
+	line-height:57px;
+	color: grey;
+	text-decoration: none;
+}
+.main8{
+	width: 100%;
+}
+.main6{
+	width:100%;
+	overflow: hidden;
+	margin-top: 25px;	
+}
+.main6-1{
+	width: 100%;
+	border:1px solid  rgba(226,125,5,0.2);
+	background-color: white;
+	overflow: hidden;
+}
+.main6-1 img{
+	width: 100%;
+}
+.main7{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.main7 h1{
+	display: inline-block;
+	line-height: 20px;;
+	font-size: 80%;
+	margin-top: 7px;
+	width: 90%;
+	padding:0px 10px;
+	font-weight: 500;
+}
+.main7 span{
+	width: 100%;
+	font-size: 90%;
+	display: inline-block;
+	margin: 10px;
+}
+.main7 span>a{
+	color:white;
+	background: #ad2406;
+	display: inline-block;
+	width:90%;
+	height:30px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+	border-radius: 12px;
+}
+.main7 span>a:hover{
+	color: white;
+	background: #e15d06;
+}
+.main7>a{
+	margin-top: 10px;
+	border-radius: 16px;
+	text-decoration: none;
+	display: inline-block;
+	width: 98%;
+	color: white;	
+	font-size: 1.2em;
+	font-weight:bold;
+	text-align: center;
+	line-height: 50px;
+	background:#ad2406;
+	height:20%;
+}
+.play{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
